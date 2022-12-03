@@ -12,7 +12,7 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 //initialising app to identify it
 firebase.initializeApp({
-  apiKey: "AIzaSyDKJWLABpZZKtyztkiYJ_ejZZ45ISBuGXA",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "loquacious-007.firebaseapp.com",
   projectId: "loquacious-007",
   storageBucket: "loquacious-007.appspot.com",
